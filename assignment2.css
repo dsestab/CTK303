@@ -1,0 +1,58 @@
+h1 {
+  background-color: red;
+  color: black;
+  animation: title-ani 1s linear infinite;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  font-size: 50px;
+}
+
+@keyframes title-ani {
+  0% {  color:black; }
+  50% { color:lawngreen; }
+  100% { color:turquoise; }
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  margin: 10px;
+  background-color: red;
+  width: 100px;
+  color: black;
+  animation: title-ani2 1s linear infinite;
+}
+
+nav a:hover {
+  transform: scale(1.5) rotate(360deg);
+  transition: all 2s;
+}
+
+@keyframes title-ani2 {
+  0% {  color:turquoise; }
+  50% { color:lawngreen; }
+  100% { color: black; }
+}
+
+#messtime {
+  animation: messy 1s linear infinite;
+  width:auto;
+  font-size: 50px;
+}
+
+@keyframes messy {
+  0% { color: black; background-color:red; }
+  50% { color:brown; background-color:blueviolet; }
+  100% { color:powderblue; background-color: black; }
+}
+
+body {
+  background-color:gold;
+}
