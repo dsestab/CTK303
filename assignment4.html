@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link href="assignment4.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="assignment4.js"></script> 
+    <title>Javascript</title>
+</head>
+
+
+<body id="body">
+        
+    <input type="range" min="0" max="100" value="50" step="1" class="slider" id="myRange" style="animation-delay: -50s"
+        oninput="this.style.animationDelay = -this.value + 's'" />
+ 
+      <datalist id="value">
+        <option value="0" label="White"></option>
+        <option value="100" label="Black"></option>
+      </datalist>
+
+
+      <p id="monkeyhappy">Monkey likes colors! Keep him happy by moving the slider!</p>
+      <p><img src="monkey.jpg" alt="monkey :D">   </p>
+
+
+   
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+ <!--https://stackoverflow.com/questions/69182720/how-to-change-slider-color-according-to-percentage
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range#examples
+https://www.w3schools.com/howto/howto_js_rangeslider.asp
+
+
+-->
