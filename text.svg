@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1476 872.15">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 72px;
+      }
+    </style>
+  </defs>
+     <polygon fill="red" stroke="white" stroke-width="10"
+        points="660,700 960,200 1260,700" />
+        
+    <rect fill="white" x="940" y="300" width="40" height="250" />
+
+    <circle fill="white" cx="960" cy="600" r="30" />
+  <text class="cls-3" transform="translate(588.96 60.26)"><tspan class="cls-1" x="0" y="0">W</tspan><tspan x="56.81" y="0">ARNING</tspan></text>
+  <text class="cls-3" transform="translate(438.56 800)"><tspan x="0" y="0">JUMPS</tspan><tspan class="cls-2" x="204.91" y="0">C</tspan><tspan x="246.96" y="0">ARE AHEAD</tspan></text>
+</svg>
