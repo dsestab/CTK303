@@ -1,0 +1,33 @@
+.mainsection {
+    background-image: url('alaska.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainsection2 {
+    background-image: url('alaska.jpg') !important;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+}
+
+.return {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.staffimage {
+    display: block !important;
+    max-width: 75% !important;
+}
+
+html {
+    cursor: url(cursor.png) !important;
+}
+
+.carousel {
+    width:840px;
+    height:360px;
+}
